@@ -1,33 +1,58 @@
-.App {
-  text-align: center;
+
+.carte{
+    background-image: url(../src/img/covers-design-backgrounds-for-a-credit-card-vector-17509086.jpg);
+    width: 35%;
+    height:350px;
+    border-radius: 15px;
+    margin-left:10%;
+    
+}
+.phrase{
+    color:white;
+    padding-left: 36%;
+padding-top: 1%
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+.chiff{
+    color:black;
+    padding-left: 5%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.chiff1{
+    color:goldenrod;
+    border: white; 
+   border-width: 2%;
+   margin-left:20px;    
 }
+.chiffres{
+    margin-top: -7%
+}
+.part{
+    display:flex;
+}
+ .pus{
+    margin-left: 200px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    margin-top: 34px;
+}
+.pus1{
+    padding-left: 5%;
+    padding-bottom:5%;
+    border-radius: 20px;  
+}
+.part2{
+    display:flex;
+    color:black;
+padding-top: 7%;
+margin-left: -25%;
+}
+span{
+    font-size: 200%;
+}
+.date{
+    display: flex;
+    margin-left: 150%;
+}
+.icone{
+    margin-top: 64%;
 }
