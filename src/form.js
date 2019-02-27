@@ -28,7 +28,7 @@ render()
         <br></br>
         <input type='text' maxLength="4" onChange={this.handelchange2} />
         <br></br>
-        <input type='text' maxLength="5" onChange={this.handelchange3} />
+        <input type='text' maxLength="4" onChange={this.handelchange3} />
     </div>}
 }
 export default Form;
